@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:gravity="fill"
+        android:text="@string/GUI"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="fill"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="@string/clickHere"
+            android:onClick="toastView"/>
+        <CheckBox
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="@string/checkThisOut"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="fill"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/flag"/>
+        <Switch
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="Switch on/off"/>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="fill"
+        android:hint="@string/Hint"
+        android:inputType="textPersonName"/>
+
+</LinearLayout>

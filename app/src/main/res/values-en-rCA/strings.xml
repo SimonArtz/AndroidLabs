@@ -3,4 +3,11 @@
     <string name="app_name">Android Labs</string>
     <string name="hello_message">Hello there!</string>
     <string name="ButtonText" translatable="false">This is a button</string>
+    <string name="GUI" translatable="false">Lab 2 GUI</string>
+    <string name="clickHere" translatable="false">Click this button</string>
+    <string name="toastText" translatable="false">More information coming up”,</string>
+    <string name="checkThisOut" translatable="false">Click the checkbox</string>
+    <string name="onOff" translatable="false">The switch is on/off</string>
+    <string name="Undo">Undo</string>
+    <string name="Hint" translatable="false">This is an edit box</string>
 </resources>
