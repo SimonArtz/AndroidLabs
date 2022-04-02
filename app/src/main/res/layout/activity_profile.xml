@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:text="Your profile"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:text="Your name"
+        android:textSize="12dp"/>
+
+    <EditText
+        android:id="@id/nameProfile"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:hint="Enter your name: "
+        android:inputType="textPersonName"
+        />
+    <TextView
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:text="Your email: "
+        android:textSize="12dp"/>
+
+    <EditText
+        android:id="@id/emailProfile"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        />
+    <TextView
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:text="Your picture: "
+        android:textSize="12dp"/>
+
+    <ImageButton
+        android:id="@id/profilePictureButton"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:src="@android:drawable/picture_frame"
+        />
+
+    <TextView
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:text="Click the button aboe to take a picture"
+        android:textSize="12dp"/>
+
+</GridLayout>

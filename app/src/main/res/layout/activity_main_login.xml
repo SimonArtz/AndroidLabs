@@ -37,6 +37,5 @@
         android:id="@id/loginButton"
         android:layout_height="50dp"
         android:layout_width="match_parent"
-        android:text="Login"
-        android:onClick="toastView"/>
+        android:text="Login"/>
 </GridLayout>

@@ -3,4 +3,13 @@
     <item name="emailText" type="id"></item>
     <item name="passwordText" type="id"></item>
     <item name="loginButton" type="id"></item>
+    <item name="nameProfile" type="id"></item>
+    <item name="emailProfile" type="id"></item>
+    <item name="profilePictureButton" type="id"></item>
+    <item name="chatListView" type="id"></item>
+    <item name="sendButton" type="id"></item>
+    <item name="chatText" type="id"></item>
+    <item name="receiveButton" type="id"></item>
+    <item name="textMessage" type="id"></item>
+    <item name="textImage" type="id"></item>
 </resources>
